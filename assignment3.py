@@ -1,0 +1,26 @@
+car = ['bmw','mercedes','ferrari','lamborghini','bmw']
+list = ['google','apple','facebook','microsoft','tesla']
+car.extend(list)
+car.count('bmw')
+num = [90,80,95,75,96]
+num.sort()
+a = array([1,2,4,5,6,8,9])
+b = array([3,4,7,10])
+c = unique(concatenate((a,b))
+stack = ["Amar", "Akbar", "Anthony"]
+stack.append("Ram")
+stack.append("Iqbal")
+print(stack)
+print(stack.pop())
+print(stack)
+print(stack.pop())
+print(stack)
+queue = deque(["Ram", "Tarun", "Asif", "John"])
+print(queue)
+queue.append("Akbar")
+print(queue)
+queue.append("Birbal")
+print(queue)
+print(queue.popleft())
+print(queue.popleft())
+print(queue)
