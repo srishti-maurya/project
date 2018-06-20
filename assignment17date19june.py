@@ -1,5 +1,5 @@
 #solution 1 and 2
-
+'''
 from tkinter import Tk, Label, Button
 class MyFirstGUI:
     def __init__(self, master):
@@ -16,7 +16,7 @@ class MyFirstGUI:
 root = Tk()
 my_gui = MyFirstGUI(root)
 root.mainloop()
-
+'''
 #solution 3
 
 from tkinter import Tk, Label, Button
@@ -37,13 +37,12 @@ class MyFirstGUI:
         self.close_button = Button(master, text="CLOSE", command=master.quit)
         self.close_button.pack()
     def greet(self):
-        self.label = Label(master, text="this is a changed label")
-        self.label.pack()
+        self.greet_button.config(text="updated text")
 root = Tk()
 my_gui = MyFirstGUI(root)
 root.mainloop()
 
-
+'''
 #solution 4
 
 from tkinter import *
@@ -53,3 +52,4 @@ e1 = Entry(master)
 e1.grid(row=0,column=1)
 print(a)
 mainloop()
+'''
