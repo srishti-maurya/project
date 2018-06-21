@@ -23,10 +23,10 @@ ip address 2a03:2880:f12f:83:face:b00c:0:25de
 
 #sudo pip install tweepy
 import tweepy
-consumer_key=fKePCtpAzbVYbyQzY7kuASYWH
-consumer_secret=pHQNVQXNPkhWYoTLFKmz2sHmmLw8XPKiE1kBfhcRrjxesDfOLv
-access_token=708684294164602880-VpqkA6n3l0veP4NZwdSSP8jYKlAhtjX
-access_token_secret=phxxLxzc8838dOEwxIMesIB7EI0uwY71AE1j99M0I1pIx
+consumer_key=................
+consumer_secret=...........................
+access_token=........................
+access_token_secret=..........................
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
 api=tweepy.API(auth)
